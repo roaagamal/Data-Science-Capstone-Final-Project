@@ -1,0 +1,38 @@
+---
+title: "Capstone Project"
+author: "Roaa Gamal"
+date: "3/5/2020"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Final Project
+
+The goal of the project is to create a product to highight a next word prediction algorithm and to provide a user interface to that can be accessed by others to utilze the algorithm.
+
+
+## Description
+
+The model will be trained using a unified document corpus compiled from the following three sources of text data:
+
+- Blogs
+- News
+- Twitter
+
+This project will only focus on the English corpora.
+
+## Application
+
+When the application is initially opened the Entry box will be blank and the Next Word Prediction box will display “NULL”
+Then enters part of a sentence in the User Interface section, the next word prediction logic will be activated
+
+## Results
+
+After the user starts to enter a sentence, the next word the application’s algorithm predicted will be displayed in the Next Word Prediction textbox
+The user’s entry will be displayed in the Next Word Prediction section
+In addition, the type of n-gram algorithm (e.g. 3-gram) used in the prediction is display
